@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dip"
+    android:paddingLeft="1dip"
+    android:paddingRight="1dip" >
+
+    <ImageView
+        android:id="@+id/imgv_doctype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imgv_doctype"
+        android:textColor="@drawable/itemcolor"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv_docdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/tv_doc"
+        android:textColor="@drawable/itemcolor"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_docsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/imgv_doctype"
+        android:layout_marginLeft="10dp"
+        android:textColor="@drawable/itemcolor"
+        android:textSize="15dp" />
+
+</RelativeLayout>
