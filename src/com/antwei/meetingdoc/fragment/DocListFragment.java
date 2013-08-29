@@ -32,6 +32,7 @@ public class DocListFragment extends ListFragment {
 	private File mFile;
 	private int mNum;
 
+	
 	public static DocListFragment newInstance(int position) {
 		DocListFragment mListFragment = new DocListFragment();
 		Bundle bundle = new Bundle();
